@@ -5,7 +5,7 @@ import { renderRoutes } from 'react-router-config';
 import routes from './routes';
 import { HashRouter } from 'react-router-dom';
 import store from './store/index';
-import { Provider } from 'react-redux';
+import Provider from 'react-redux';
 
 function App() {
   return (
