@@ -20,7 +20,7 @@ function Recommend(props) {
     return (
         <div>
             <Slider bannerList={bannerList}></Slider>
-            <RecommendList recommendList={recommendList}></RecommendList>
+            <RecommendList RecommendList={recommendList}></RecommendList>
         </div>
     )
 }
